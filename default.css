@@ -1,5 +1,5 @@
 /* This is where any css rules will live.
-NOTE: comments are formatted different for HTML/CSS */
+NOTE: comments are formatted differently for HTML/CSS */
 
 /* This will be applied to every page, so don't edit for things not specific to the overall layout. */
 #content {
@@ -15,11 +15,10 @@ h1 {
 }
 
 body {
+
     background-color: #fff;
-    
     margin: 0px;
 }
-
 
 /* All CSS rules containing 'nav' affect navbar at top of page. */
 nav ul {
@@ -56,7 +55,7 @@ nav ul li a:hover {
     background-color: #0835D7;
     color: #FFFFFF;
 }
-/* gives current page tab in navbar a defining color */
+/* Gives current page tab in navbar a defining colour. */
 .currentPage {
     background-color: #1B4BF7;
     color: #FFFFFF;
