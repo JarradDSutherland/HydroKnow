@@ -120,3 +120,15 @@ section {
     display: flex;
     flex-direction: column;
 }
+
+.bottomNavPrev {
+    margin-bottom: 16px;
+    margin-left: 16px;
+    float: left;
+}
+
+.bottomNavNext {
+    margin-bottom: 16px;
+    margin-right: 16px;
+    float: right;
+}
