@@ -33,7 +33,7 @@ h2 {
 body {
 
     background-color: #fff;
-    margin: 0px;
+    margin: 0;
 }
 
 
@@ -45,7 +45,7 @@ nav {
 
 nav ul {
     background-color: #FFFFFF;
-    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
     overflow: hidden;
     list-style-type: none;
     margin: 0;
@@ -106,8 +106,8 @@ nav ul li a:hover {
 }
 
 .team table td {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 strong {
