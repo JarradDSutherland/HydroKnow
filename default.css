@@ -2,14 +2,17 @@
 NOTE: comments are formatted differently for HTML/CSS */
 
 /* This will be applied to every page, so don't edit for things not specific to the overall layout. */
-.content {
-    padding-bottom: 2em;
+body {
     font-family: 'Work Sans', sans-serif;
-    padding-top: 50px;
     color: #676767;
     font-size: 18px;
-    line-height: 30px;
     letter-spacing: 0;
+}
+
+.content {
+    line-height: 30px;
+    padding-bottom: 2em;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -35,7 +38,6 @@ body {
     background-color: #fff;
     margin: 0;
 }
-
 
 /* All CSS rules containing 'nav' affect navbar at top of page. */
 nav {
@@ -129,4 +131,19 @@ section {
     margin-bottom: 16px;
     margin-right: 16px;
     float: right;
+}
+
+.split {
+    display: flex;
+}
+
+.split div {
+    flex: 50%;
+    line-height: 30px;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.split div ul {
+    font-size: medium;
 }
