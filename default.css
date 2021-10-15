@@ -263,7 +263,6 @@ section {
   width: auto;
 }
 
-.fancyButton: hover,
 .fancyButton:focus {
   border-color: rgba(0, 0, 0, 0.15);
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
@@ -271,7 +270,7 @@ section {
 }
 
 .fancyButton:hover {
-  transform: translateY(-1px);
+  transform: translateY(-2px);
 }
 
 .fancyButton:active {
