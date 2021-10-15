@@ -281,5 +281,7 @@ section {
   transform: translateY(0);
 }
  
-    
+.personalityPic {
+  float:right;
+}
   
