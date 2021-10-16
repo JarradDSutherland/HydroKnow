@@ -111,6 +111,11 @@ nav ul li a:hover {
 
 .heroText h1 {
     font-size: 5vh;
+    color: white;
+}
+
+.heroText h2 {
+  color: white;
 }
 
 .teamImages {
@@ -119,6 +124,15 @@ nav ul li a:hover {
     border-radius: 50%;
     float: left;
 
+}
+
+.bigImage {
+  transition:transform 0.80s ease;
+}
+
+.bigImage:hover {
+  -webkit-transform:scale(1.5);
+    transform:scale(1.5);
 }
 
 .team table td {
@@ -187,7 +201,7 @@ section {
   top: 0;
   height: 100%;
   width: 51%;
-  background: #212529;
+  background: #fff;
 }
 
 .chevron:before {
@@ -235,7 +249,7 @@ section {
     margin-left: -30px;
     font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
     font-size: 12px;
-    color: #212529;
+    color: #fff;
     text-transform: uppercase;
     white-space: nowrap;
     animation: pulse 2s linear alternate infinite;
@@ -295,3 +309,12 @@ section {
   padding-left: 30px;
 }
   
+.hero {
+  background-image: url("images/herobg.jpg");
+    min-height: 100vh;
+    width: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
