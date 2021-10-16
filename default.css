@@ -34,11 +34,16 @@ h1 {
 h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    color: #676767;
+    color: #212529;
+}
+
+h3 {
+  color: #212529
 }
 
 h4 {
     margin-bottom: 0;
+    color: #212529
 }
 
 body {
